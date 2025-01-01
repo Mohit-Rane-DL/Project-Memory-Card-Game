@@ -1,0 +1,29 @@
+.card{
+    background-color: lightgreen;
+    width: 15vw;
+    min-width: 230px;
+    height: 40vh;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card > img{
+    width: 15vw;
+    min-width: 230px;
+    height: 35vh;
+    min-height: 315px;
+    border-radius: 20px;
+}
+
+.card:hover{
+    background-color: rgb(89, 206, 89);
+}
+
+.card > h2{
+    color: rgb(158, 113, 0);
+}

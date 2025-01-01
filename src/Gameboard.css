@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    min-height: 100vh;
+    padding: 2vw;
+    background-color: green;
+    color: goldenrod;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+@media (max-width: 500px) {
+    .cards{
+        justify-content: center;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+}
